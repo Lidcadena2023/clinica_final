@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    
+    <title>CITAS MEDICAS - CEN</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>FORMULARIO CITAS - CEN</h1>
+        <h2>SECCION CITAS MEDICAS</h2>
+
+<form action="sendcita.php" form  method="post" autocomplete="off">
+    <input type="number" name="cedula" placeholder="Cedula"><br><br>
+
+    <label for="especialidad">Tipo de especialidad  </label>
+    <br>
+    <select id="especialidad" name="especialidad"required>
+        <option value="">------------------------  Seleccione la especialidad  ---------------------</option>
+        <option value="Medicina general">Medicina general</option>
+        <option value="Cardiologia">Cardiología</option>
+        <option value="Medicina interna">Medicina interna</option>
+        <option value="Dermatología interna">Dermatología interna</option>
+        <option value="Rehabilitacion fisica">Rehabilitación física</option>
+        <option value="Psicologia">Psicología</option>
+        <option value="Odontología">Odontología</option>
+        <option value="Radiologia">Radiología</option>
+    </select><br><br>
+        
+    <label for="fecha">Fecha:</label>
+    <br>
+    <input type="date" id="fecha" name="fecha" required><br><br>
+
+    <input type="submit" name= "send"  value="Enviar"><br><br>
+        </form>
+
+
+
+        <div>
+            <a href="index.html"> <input type="button" value="INICIO"></a>
+
+
+            
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    
+    <title>FORMULARIO DE MEDICOS - CEN</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>FORMULARIO MEDICOS - CEN</h1>
+        <h2>SECCION MEDICOS</h2>
+
+<form action="sendmed.php"  method="post" autocomplete="off" >
+    <input type="text" name="nombre" placeholder="Nombre"><br><br>
+    <input type="text" name="apellido" placeholder="Apellido"><br><br>
+
+    <label for="especialidad">Tipo de especialidad  </label>
+    <br>
+    <select id="especialidad" name="especialidad"required>
+        
+        <option value="">------------------------  Seleccione la especialidad  ---------------------</option>
+        <option value="Medicina general">Medicina general</option>
+        <option value="Cardiologia">Cardiología</option>
+        <option value="Medicina interna">Medicina interna</option>
+        <option value="Dermatología interna">Dermatología interna</option>
+        <option value="Rehabilitacion fisica">Rehabilitación física</option>
+        <option value="Psicologia">Psicología</option>
+        <option value="Odontología">Odontología</option>
+        <option value="Radiologia">Radiología</option>
+    </select><br><br>
+    <input type="number" name="consultorio" placeholder="Consultorio"><br><br>
+    <input type="text" name="correo" placeholder="Correo"><br><br>
+
+    <input type="submit" name= "send"  value="Enviar"><br><br>
+        </form>
+        <div>
+            <a href="index.html"> <input type="button" value="INICIO"></a>
+
+            
+
+
+
+</body>
+</html>

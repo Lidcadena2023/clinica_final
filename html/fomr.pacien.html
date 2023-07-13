@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    
+    <title>FORMULARIO DE PACIENTES - CEN</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>CLINICA DE ESPECIALISTAS DEL NORTE</h1>
+        <h2>SECCION PACIENTES</h2>
+
+<form action="sendpacient.php" form  method="post" autocomplete="off">
+    <input type="text" name="nombre" placeholder="Nombre"><br><br>
+    <input type="text" name="apellido" placeholder="Apellido"><br><br>
+    <input type="number" name="cedula" placeholder="Numero de cedula"><br><br>
+    <input type="number" name="edad" placeholder="Edad"><br><br>
+    <input type="number" name="telefono" placeholder="Telefono"><br><br>
+
+    <input type="submit" name= "send"  value="Enviar"><br><br>
+        </form>
+        <div>
+            <a href="index.html"> <input type="button" value="INICIO"></a>
+
+            <?php
+
+            include ("sendpacient.php");
+            ?>
+
+
+
+</body>
+</html>

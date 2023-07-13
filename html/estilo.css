@@ -1,0 +1,55 @@
+h1 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+color: blue;
+text-align: center;
+
+
+}
+
+h2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+;
+}
+
+form {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+
+}
+
+li {
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+
+}
+
+footer {
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+color: blue;
+
+}
+
+body {
+
+background-color: rgb(248, 180, 248);
+
+
+}
+
+input{
+
+    size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+;
+
+
+
+
+}
